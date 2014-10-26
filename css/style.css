@@ -1,0 +1,446 @@
+body {
+	background: white;
+	font-family: 'Raleway', sans-serif;
+}
+
+h3 {
+	color: rgb(115, 105, 105);
+}
+
+p{
+	color: grey;
+	
+}
+
+h2{
+	font-size: 35px;
+}
+
+.top-menu{
+	border-radius: 0;
+	border-bottom: 1px solid rgb(221, 218, 218);
+}
+
+.navbar-default{
+	background: white;
+	border-radius: 0;
+	margin-bottom: 0;
+	margin-top: 0;
+	border: 1px solid rgb(221, 218, 218);
+}
+
+.nav .form-control{
+	border-radius: 0;
+	background: url('../images/PNG/search.png') no-repeat 7px 2px #ffffff;
+    padding: 6px 15px 6px 35px;
+ 	display: inline-block;
+	background-size: contain;
+	margin: 0;
+	height: 34px;
+}
+
+.form-control{
+	height: 30px;
+	margin-bottom: 10px;
+}
+
+.top-menu .navbar-default{
+	height: 36px;
+	min-height: 36px;
+}
+
+.top-menu .nav a{
+	padding-top: 8px;
+	padding-bottom: 6px;
+	color: black;
+	font-weight: bold;
+	font-size: 13px;
+}
+
+.icon-home {
+	background: url('../images/PNG/home.png') no-repeat 0 0;
+	display: inline-block;
+	height: 20px;
+	width: 17px;
+	background-size: contain;
+	vertical-align: bottom;
+}
+
+.icon-gitbranch{
+	background: url('../images/PNG/git-branch.png') no-repeat 0 0;
+	height: 20px;
+	width: 17px;
+	display: inline-block;
+	background-size: contain;
+	vertical-align: bottom;	
+}
+
+.icon-person{
+	background: url('../images/PNG/person.png') no-repeat 0 0;
+	height: 20px;
+	width: 17px;
+	display: inline-block;
+	background-size: contain;
+	vertical-align: bottom;	
+}
+
+.form-control::-webkit-input-placeholder{
+	color:#B8B7B7;
+}
+
+.logo{
+	line-height: 100px;
+}
+
+.navbar-text {
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: 27px;
+	font-weight: 500;
+	color: black;
+}
+
+.caret{
+	color: #ff5500;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: #000;
+	font-weight: 500;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > .open > a:focus{
+	color: white;
+	background-color: #FF5500;
+}
+
+.callout .row{
+	padding-bottom: 40px;
+	padding-top: 30px;
+}
+.callout .row:first-child{
+	border-bottom: 1px solid rgb(221, 218, 218);
+}
+
+.carousel-caption p{
+	color: black;
+	margin: 15px 15px 15px 0px;
+	font-size: 18px;
+}
+
+.carousel-caption{
+	text-align: left;
+	text-shadow: none;
+	color: black;
+}
+
+.carousel-caption .btn-default{
+	border-color: #FF5500;
+	background: #FF5500;
+	color: white;
+}
+
+.center {
+	text-align: center;
+}
+
+.btn-default{
+	background: white;
+	margin-top: 20px;
+}
+
+.form-group .btn-default{
+	border-color: #FF5500;
+	float: right;
+	background: #FF5500;
+	color: white;
+	margin-top: 10px;	
+    transition-duration: 1s;
+    transition-timing-function: linear;
+}
+
+.form-group .btn-default:hover{
+	background: green;
+	border-color: green;
+    border-radius: 80%;
+}
+
+.md-section{
+	background: rgb(226, 226, 226);
+	padding: 50px 0 30px;
+}
+
+.down-section{
+	height: 45px;
+}
+
+.icon-phone{
+	background: url('../images/PNG/device-mobile.png') no-repeat 0 0;
+	height: 24px;
+	width: 25px;
+	display: inline-block;
+	background-size: contain;
+	vertical-align: bottom;	
+}
+
+.icon-mail{
+	background: url('../images/PNG/mention.png') no-repeat 0 0;
+	height: 24px;
+	width: 25px;
+	display: inline-block;
+	background-size: contain;
+	vertical-align: bottom;	
+}
+
+.icon-facebook{
+	background: url('../images/PNG/social-facebook-circular.png') no-repeat 0 0;
+	height: 35px;
+	width: 35px;
+	display: inline-block;
+	background-size: contain;
+	vertical-align: bottom;	
+}
+
+.orange:hover{
+	-webkit-filter: invert(1);
+	background-color: #00AAFF;
+	margin: auto;
+	border-radius: 50%;
+	display:inline-block;
+	height: 35px;
+	width: 35px;
+}
+
+.icon-vimeo{
+	background: url('../images/PNG/social-vimeo-circular.png') no-repeat 0 0;
+	height: 35px;
+	width: 35px;
+	display: inline-block;
+	background-size: contain;
+	vertical-align: bottom;	
+}
+
+.icon-twitter{
+	background: url('../images/PNG/social-twitter-circular.png') no-repeat 0 0;
+	height: 35px;
+	width: 35px;
+	display: inline-block;
+	background-size: contain;
+	vertical-align: bottom;	
+}
+
+.icon-pinterest{
+	background: url('../images/PNG/social-pinterest-circular.png') no-repeat 0 0;
+	height: 35px;
+	width: 35px;
+	display: inline-block;
+	background-size: contain;
+	vertical-align: bottom;	
+}
+
+.icon-linkedin{
+	background: url('../images/PNG/social-linkedin-circular.png') no-repeat 0 0;
+	height: 35px;
+	width: 35px;
+	display: inline-block;
+	background-size: contain;
+	vertical-align: bottom;	
+}
+
+.photo-image{
+	background: url('../images/my.png') no-repeat 0 0;
+	height: 150px;
+	width: 345px;
+	display: inline-block;
+}
+
+.dropdown-inside{
+	display: none;
+}
+
+.dropdown-menu > li > a:hover{
+	background-image: none;
+	background-color: #FF5500;
+}
+
+.btn-default:hover{
+	background: #FF5500;
+	color: white;
+}
+
+.top-menu .nav a:hover{
+	background: #FF5500;
+}
+
+.service-box a,
+.contact a{
+	color: #FF5500;
+}
+
+.bottom-section{
+	line-height: 45px;
+}
+
+.bottom-section p{
+	color: black;
+	vertical-align: middle;		
+}
+
+.dashboard{
+	background: url('../images/PNG/dashboard.png') no-repeat center;
+	background-size: 65%;
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	display: block;
+	transform-style: preserve-3d;
+	transition: all 1s ease-in;
+}
+
+.dashboard:hover{
+	transform: rotate(360deg);
+}
+
+.briefcase{
+	background: url('../images/PNG/briefcase.png') no-repeat center;
+	background-size: 65%;
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	display: block;
+	transform-style: preserve-3d;
+	transition: all 1s ease-out;
+}
+
+.briefcase:hover{
+	transform: rotateX(360deg);
+}
+
+.database{
+	background: url('../images/PNG/database.png') no-repeat center;
+	background-size: 54%;
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	display: block;	
+	transform-style: preserve-3d;
+	transition: all 1s ease-in-out;
+}
+
+.database:hover{
+	transform: rotateY(360deg);	
+}
+
+.orange-image {
+	-webkit-filter: invert(1);
+	background-color: #00AAFF;
+	margin: auto;
+}
+
+.carousel-indicators{
+	position: relative;	
+	bottom: -5px;
+}
+
+.carousel-indicators li{
+	background-color:  #FF5500;	
+}
+
+.carousel-indicators .active{
+	background-color: #CCC;
+}
+
+.carousel-inner {
+	background: #DDD;
+}
+
+.carousel-inner .item{
+	height: 300px;
+}
+
+.item{
+	background: url('../images/white-mountains-522-1680x1050.jpg') no-repeat center;
+	height: 300px;
+}
+
+.carousel-caption{
+	left: 2%;
+	width: 55%;
+	top: 0;
+	height: 100%;
+	background-color: rgba(255, 255, 255, 0.5);
+	padding: 30px;
+}
+
+.carousel-control.left,
+.carousel-control.right{
+	background: white;
+}
+
+.carousel-control{
+	width: 13%;
+	color: #ddd;
+}
+
+.carousel-control:hover{
+	color: #FF5500;	
+}
+
+.logo-google{
+	background: url('../images/google.jpg') no-repeat 0 0;
+	height: 80px;
+	width: 230px;
+	display: inline-block;
+	background-size: contain;
+	vertical-align: bottom;
+	margin: 0px 25px;	
+}
+
+.logo-intel{
+	background: url('../images/intel_logo.jpg') no-repeat 0 0;
+	height: 100px;
+	width: 140px;
+	display: inline-block;
+	background-size: contain;
+	vertical-align: bottom;
+	margin: 0px 25px;	
+}
+
+.logo-ibm{
+	background: url('../images/Logo-IBM.gif') no-repeat 0 0;
+	height: 80px;
+	width: 175px;
+	display: inline-block;
+	background-size: contain;
+	vertical-align: bottom;
+	margin: 0px 25px;	
+}
+
+.logo-samsung{
+	background: url('../images/samsung-logo.png') no-repeat 0 0;
+	height: 100px;
+	width: 200px;
+	display: inline-block;
+	background-size: contain;
+	vertical-align: bottom;
+	margin: 0px 25px;	
+}
+
+.item.logo{
+	background: white;
+	height: 150px;
+	width: 1000px;
+}
+
+.up-section .carousel-inner{
+	background: white;
+}
+
+.contact p{
+	color: black;
+	font-weight: 600;
+}
+
+
+
