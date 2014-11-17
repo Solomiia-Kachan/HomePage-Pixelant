@@ -20,7 +20,7 @@
 </head>
 <body>
 	<header>
-		<div class="top-menu">
+		<div class="top-menu visible-sm visible-md visible-lg">
 	      	<div class="container">
 	          	<ul class="nav navbar-nav navbar-right">
 	            	<li><input type="text" class="form-control" placeholder="Search"></li>
@@ -33,7 +33,7 @@
 		<div class="logo container">
 			<p class="navbar-text">Site Logo</p>
 		</div>
-		<div class="main-menu">
+		<div class="main-menu visible-sm visible-md visible-lg">
 			<div class="navbar navbar-default">
 	          	<div class="container">
 	          	  	<ul class="nav navbar-nav">
@@ -61,8 +61,45 @@
 	        	</div>
 	    	</div>
 		</div>
+		<div class="navbar navbar-inverse visible-xs" role="navigation">
+		    <div class="container">
+		        <div class="navbar-header">
+		          	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+		            	<span class="sr-only">Toggle navigation</span>
+		            	<span class="icon-bar"></span>
+		            	<span class="icon-bar"></span>
+		            	<span class="icon-bar"></span>
+		          	</button>
+		          	<a class="navbar-brand" href="#">Home</a>
+		          	<a class="log" href="#">Login</a>
+		        </div>
+		 		<div class="navbar-collapse collapse in" style="height: auto;">
+		          	<ul class="nav navbar-nav">
+		            	<li><a href="#">About</a></li>
+		            	<li class="dropdown">
+		              		<a href="#" class="dropdown-toggle" data-toggle="dropdown">Features <b class="caret"></b></a>
+		              		<ul class="dropdown-menu">
+								<li><a href="#">Feature 1</a></li>
+								<li><a href="#">Feature 2</a></li>
+								<li><a href="#">Feature 3</a></li>
+		              		</ul>
+		            	</li>
+		            	<li class="dropdown">
+		              		<a href="#" class="dropdown-toggle" data-toggle="dropdown">Solutions <b class="caret"></b></a>
+		              		<ul class="dropdown-menu">
+								<li><a href="#">Solution 1</a></li>
+								<li><a href="#">Solution 2</a></li>
+								<li><a href="#">Solution 3</a></li>
+		              		</ul>
+			            </li>
+			            <li><a href="#">News</a></li>
+			            <li><a href="#">Contact</a></li>
+			            <li><input type="text" class="form-control" placeholder="Search"></li>
+		          	</ul>
+		        </div>
+		     </div>
+		</div>
 	</header>
-
 	<div class="contentMain">
 		<div id="my-carousel" class="carousel slide" data-ride="carousel">
 			<div class="carousel-inner container">
@@ -147,9 +184,8 @@
 	    	</div>  
 	    </div>
 	</div>
-
 	<footer>
-		<div class="up-section">
+		<div class="up-section visible-md visible-lg">
 			<div id="my-carousel-logo" class="carousel slide" data-ride="carousel">
 				<div class="carousel-inner container">
 			      	<div class="item active logo container">
@@ -182,7 +218,7 @@
 		<div class="md-section">
 			<div class="container">
 	      		<div class="row">
-	        		<div class="col-sm-4 contact">
+	        		<div class="col-md-4 col-sm-3 contact">
 	          		  <address>
 	  					<h4><strong>CONTACT US</strong></h4>
 	  					PIXELANT AB<br>
@@ -191,7 +227,7 @@
 	  					Sweden
 	  		  		  </address>
 	        		</div>
-	        		<div class="col-sm-4 contact">
+	        		<div class="col-md-4 col-sm-5 contact">
 	         		  <address>
 	         	      	<p><span class="icon-phone"></span>CALL US ON <a href="tel:+460402607700">+46 (0)40 260 77 00</a></p>
 	         	  	  	<p><span class="icon-mail"></span>EMAIL US AT <a href="mailto:info@mail.com">info@mail.com</a></p><br>
@@ -204,7 +240,7 @@
 		         	  	</p>
 	         		  </address>
 	       			</div>
-	        		<div class="col-sm-4">
+	        		<div class="col-md-4 col-sm-4">
 	          			<form role="form">
 	          				<div class="form-group">
 	          					<input type="text" class="form-control" placeholder="Name">
@@ -221,7 +257,6 @@
 	        <p>All rights reserved © 2014</p>
 	    </div> 
 	</footer>
-
 	<script src="js/jquery-1.11.1.min.js"></script>
 	<script src="js/bootstrap.js"></script>	
 </body>

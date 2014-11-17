@@ -31,10 +31,12 @@ h2{
 
 .nav .form-control{
 	border-radius: 0;
-	background: url('../images/PNG/search.png') no-repeat 7px 2px #ffffff;
-    padding: 6px 15px 6px 35px;
- 	display: inline-block;
+	background: url('../images/PNG/search.png') no-repeat -25px 2px #ffffff;
+	padding: 6px 15px 6px 35px;
+	display: inline-block;
 	background-size: contain;
+	background-clip: padding-box;
+	background-origin: content-box;
 	margin: 0;
 	height: 34px;
 }
@@ -95,17 +97,17 @@ h2{
 .navbar-text {
 	margin-top: 0;
 	margin-bottom: 0;
-	font-size: 27px;
+	font-size: 35px;
 	font-weight: 500;
 	color: black;
 }
 
 .caret{
-	color: #ff5500;
+	color: #FF5500;
 }
 
 .navbar-default .navbar-nav > li > a {
-	color: #000;
+	color: black;
 	font-weight: 500;
 }
 
@@ -115,10 +117,77 @@ h2{
 	background-color: #FF5500;
 }
 
+.navbar-inverse{
+	background: white;
+	border: 1px solid #CCC;
+}
+
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav > li > a{
+	text-shadow:none;
+	color: black;
+}
+
+.navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-nav > li > a:hover{
+	background: #FF5500;
+	color: white;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar{
+	background: #CCC;
+}
+
+.navbar-inverse .navbar-toggle{
+	border-color: #CCC;
+	background: #FF5500 !important;
+}
+
+.navbar-inverse .navbar-toggle:hover{
+	background-color: white  !important;
+}
+
+.navbar-inverse .navbar-toggle:focus{
+
+}
+
+.navbar-inverse .navbar-nav > .open > a{
+	color: white;
+	background-color: #FF5500;
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover, 
+.navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus{
+	color: white;
+	background-color: #FF5500;
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+	color: black;
+}
+
+.navbar-inverse .navbar-nav > .open > a, 
+.navbar-inverse .navbar-nav > .open > a:hover, 
+.navbar-inverse .navbar-nav > .open > a:focus {
+	color: white;
+	background-color:  #FF5500;}
+
+.log {
+	color: black;
+	float: right;
+	margin: 15px 30px;
+	font-weight: bold;
+}
+
+ .log:focus, 
+ .log:hover{
+	text-decoration: none;
+	color: #FF5500;
+}
+
 .callout .row{
 	padding-bottom: 40px;
 	padding-top: 30px;
 }
+
 .callout .row:first-child{
 	border-bottom: 1px solid rgb(221, 218, 218);
 }
@@ -156,14 +225,11 @@ h2{
 	background: #FF5500;
 	color: white;
 	margin-top: 10px;	
-    transition-duration: 1s;
-    transition-timing-function: linear;
 }
 
 .form-group .btn-default:hover{
-	background: green;
-	border-color: green;
-    border-radius: 80%;
+	background: white; 
+	color: #FF5500;
 }
 
 .md-section{
@@ -204,6 +270,7 @@ h2{
 
 .orange:hover{
 	-webkit-filter: invert(1);
+	filter: invert(1);
 	background-color: #00AAFF;
 	margin: auto;
 	border-radius: 50%;
@@ -380,7 +447,7 @@ h2{
 
 .carousel-control{
 	width: 13%;
-	color: #ddd;
+	color: #DDD;
 }
 
 .carousel-control:hover{
@@ -442,5 +509,30 @@ h2{
 	font-weight: 600;
 }
 
+@media screen and (max-width: 991px) {
+	.carousel-caption p{
+		font-size: 14px;
+	}
 
+	.carousel-caption h2{
+		font-size: 30px;
+	}
+}
 
+@media screen and (max-width: 727px) {
+	.carousel-caption h2{
+		font-size: 25px;
+	}
+}
+
+@media screen and (max-width: 633px) {
+	.carousel-caption h2{
+		font-size: 22px;
+	}
+}
+
+@media screen and (max-width: 576px){
+	.carousel-caption{
+		width: 85%;
+	}
+}
