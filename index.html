@@ -40,7 +40,7 @@
 	            		<li><a href="#">Home</a></li>
 	            		<li><a href="#">About</a></li>
 	            		<li class="dropdown">
-	              			<a href="#" class="dropdown-toggle" data-toggle="dropdown">Features <span class="caret"></span></a>
+	              			<a href="#" id="feat" class="dropdown-toggle" data-toggle="dropdown">Features <span id="car" class="caret"></span></a>
 			              	<ul class="dropdown-menu">
 				                <li><a href="#">Feature 1</a></li>
 				                <li><a href="#">Feature 2</a></li>
@@ -48,7 +48,7 @@
 			              	</ul>
 	            		</li>
 	            		<li class="dropdown">
-			              	<a href="#" class="dropdown-toggle" data-toggle="dropdown">Solutions <span class="caret"></span></a>
+			              	<a href="#" id="sol" class="dropdown-toggle" data-toggle="dropdown">Solutions <span id="care" class="caret"></span></a>
 			              	<ul class="dropdown-menu">
 			                	<li><a href="#">Solution 1</a></li>
 			                	<li><a href="#">Solution 2</a></li>
@@ -259,5 +259,19 @@
 	</footer>
 	<script src="js/jquery-1.11.1.min.js"></script>
 	<script src="js/bootstrap.js"></script>	
+	<script>
+		document.getElementById('feat').onmouseover=function() {
+			document.getElementById('car').style.color="white";
+		}
+		document.getElementById('feat').onmouseout=function() {
+			document.getElementById('car').style.color="#FF5500";
+		}
+		document.getElementById('sol').onmouseover=function() {
+			document.getElementById('care').style.color="white";
+		}
+		document.getElementById('sol').onmouseout=function() {
+			document.getElementById('care').style.color="#FF5500";
+		}
+	</script>
 </body>
 </html>

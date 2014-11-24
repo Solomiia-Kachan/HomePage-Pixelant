@@ -59,6 +59,11 @@ h2{
 	font-size: 13px;
 }
 
+.top-menu .nav a:hover{
+	background: #FF5500;
+	color: white;
+}
+
 .icon-home {
 	background: url('../images/PNG/home.png') no-repeat 0 0;
 	display: inline-block;
@@ -66,6 +71,8 @@ h2{
 	width: 17px;
 	background-size: contain;
 	vertical-align: bottom;
+	-webkit-filter: invert(1);
+	filter: invert(1);
 }
 
 .icon-gitbranch{
@@ -75,6 +82,8 @@ h2{
 	display: inline-block;
 	background-size: contain;
 	vertical-align: bottom;	
+	-webkit-filter: invert(1);
+	filter: invert(1);
 }
 
 .icon-person{
@@ -84,6 +93,8 @@ h2{
 	display: inline-block;
 	background-size: contain;
 	vertical-align: bottom;	
+	-webkit-filter: invert(1);
+	filter: invert(1);
 }
 
 .form-control::-webkit-input-placeholder{
@@ -334,10 +345,6 @@ h2{
 .btn-default:hover{
 	background: #FF5500;
 	color: white;
-}
-
-.top-menu .nav a:hover{
-	background: #FF5500;
 }
 
 .service-box a,
